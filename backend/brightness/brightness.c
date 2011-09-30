@@ -6,8 +6,8 @@
 
 #include "bright_backend.h"
 
-#define BRIGHT_FILENAME "/sys/class/backlight/pwm-backlight/brightness"
-#define MAX_BRIGHT_FILENAME "/sys/class/backlight/pwm-backlight/max_brightness"
+#define BRIGHT_FILENAME "/sys/class/backlight/s6d05a-lcd/brightness"
+#define MAX_BRIGHT_FILENAME "/sys/class/backlight/s6d05a-lcd/max_brightness"
 #define BLANKING_FILENAME "/sys/class/graphics/fb0/blank"
 
 #define MIN_BRIGHTNESS 5
