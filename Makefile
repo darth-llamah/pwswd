@@ -10,7 +10,7 @@ OBJS += backend/suspend/suspend.o
 OBJS += backend/kill/kill.o
 
 
-CROSS_COMPILE:=arm-linux-
+CROSS_COMPILE:=arm-unknown-linux-uclibcgnueabi-
 CC:=$(CROSS_COMPILE)gcc
 
 
